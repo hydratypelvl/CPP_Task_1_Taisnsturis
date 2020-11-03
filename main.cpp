@@ -20,11 +20,27 @@ int main() {
   do {
     cout << "Ievadiet taisnstura malas!\n";
     //Malu ievadišana
-    cout << "mala x: ";
-    cin >> x;
-    cout << "\nmala y: ";
-    cin >> y;
+    
+    do {
+      cout << "mala x: ";
+      cin >> x;
+      // Pārbauda vai skaitlis ir lielāks par 0
+      if(x < 1){
+        cout << "Ludzu ievadiet skaitli lielāku par 0!\n";
+      }
+    } while (x < 1);
+    
+    do {
+      cout << "\nmala y: ";
+      cin >> y;
+      // Pārbauda vai skaitlis ir lielāks par 0
+      if(y < 1){
+        cout << "Ludzu ievadiet skaitli lielāku par 0!\n";
+      }
+    } while (y < 1);
+      
     //Funkcijas izsaukšana
+    cout << x << " * " << y;
     cout << "\nTaisnstura laukums ir: " << laukumaAprekinasana(x, y) << "\n";
     //Programmas atkārtošana
     cout << "\nVai velaties atkartot programmu? (y/n)";
