@@ -3,7 +3,6 @@
 //Ciklā tiek izsaukta funkcija, kurā kā parametrus saņem taisnstūra malu garumu un pārsūta tā laukumu.
 
 #include <iostream>
-// #include <string>
 using namespace std;
 
 float laukumaAprekinasana(float x, float y) {
