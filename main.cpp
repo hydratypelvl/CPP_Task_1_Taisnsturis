@@ -1,5 +1,4 @@
 // Uzrakstīt programmu, kas realizē sekojošo uzdevumu ( cikls jāatkārto tik ilgi, kamēr lietotājs to vēlēsies ).
-
 //Ciklā tiek izsaukta funkcija, kurā kā parametrus saņem taisnstūra malu garumu un pārsūta tā laukumu.
 
 #include <iostream>
